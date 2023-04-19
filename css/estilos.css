@@ -1,0 +1,162 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+:root {
+	--cor-fundo1: #000;
+	--cor-fundo2: #222634;
+	--cor-verde: #009748;
+	--cor-texto: #fff;
+	--nome-fonte: 'Inter';
+}
+
+header {
+	background-color: var(--cor-fundo1);
+	text-align: center;
+	padding: 20px;
+}
+
+#inicio{
+	background-color: var(--cor-fundo1);
+	height: 700px;
+}
+.container{
+	background-image: url('../imagens/fundo-sessão.png');
+	background-repeat: no-repeat;
+	width: 1440px;
+	height: 700px;
+	margin: 0 auto;
+}
+.lateral_esquerda{
+	background-color: transparent;
+	width: 720px;
+	padding-top: 100px;
+}
+.titulo{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 34px;
+	text-align: center;
+	color: var(--cor-texto);
+}
+
+.botao_assine {
+	color: var(--cor-texto);
+	background-color: var(--cor-verde);
+	text-decoration: nome;
+	font-family: var(--nome-fonte);
+	font-size: 16px;
+	text-align: center;
+
+	display: block;
+	margin: 10px 150px;
+	padding: 16px;
+
+	border-radius: 10px;
+}
+
+.botao_assine2{
+	color: var(--cor-texto);
+	background-color: var(--cor-fundo1);
+	text-decoration: nome;
+	font-family: var(--nome-fonte);
+	font-size: 16px;
+	text-align: center;
+
+	display: block;
+	margin: 10px 150px;
+	padding: 16px;
+
+	border-radius: 10px;
+
+	border: 1px solid var(--cor-texto);
+}
+
+
+#assista{
+	background-color: var(--cor-fundo2);
+	height: 700px;
+}
+
+.assista_esquerda {
+	padding-top: 98px;
+	width: 720px;
+	float: left;
+	margin-left: 30px;
+}
+
+.assista_direita {
+	padding-top: 200px;
+}
+
+.titulo_assista {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 38px;
+	color: var(--cor-texto);
+}
+
+.texto_assista {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 18px;
+	color: var(--cor-texto);
+}
+
+
+#combo{
+	background-color: var(--cor-fundo1);
+	height: 700px;	
+}
+
+.combo_esquerda{
+	width: 720px;
+	height: 700px;
+	float: left;
+	padding-top: 150px;
+	padding-left: 100px;
+}
+
+.combo_direita{
+	width: 720px;
+	float: right;
+	margin-right: 30px;
+	padding-top: 150px;
+	padding-rigth: 100px;
+}
+
+.texto_combo {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 18px;
+	color: var(--cor-texto);
+}
+
+.botao_assine_combo {
+    color: var(--cor-texto);
+	background-color: var(--cor-verde);
+	text-decoration: nome;
+	font-family: var(--nome-fonte);
+	font-size: 16px;
+	text-align: center;
+
+	display: block;
+	margin: 10px 50px;
+	padding-right: 16px;
+
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
